@@ -1,6 +1,6 @@
 import hello;
 
 int main() {
-    say_hello();
-    return 0;
+  say_hello();
+  return 0;
 }
