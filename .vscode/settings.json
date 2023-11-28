@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.cppm": "cpp",
+      },
+      "cmake.configureOnOpen": true
+}
