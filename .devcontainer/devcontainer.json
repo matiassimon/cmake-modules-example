@@ -3,7 +3,8 @@
 {
 	"name": "C++",
 	"build": {
-		"dockerfile": "Dockerfile"
+		"dockerfile": "Dockerfile",
+		"args": { "REINSTALL_CMAKE_VERSION_FROM_SOURCE": "3.28.0-rc5" }
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.

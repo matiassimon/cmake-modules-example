@@ -1,6 +1,9 @@
 FROM mcr.microsoft.com/devcontainers/cpp:1-debian-12
 
-ARG REINSTALL_CMAKE_VERSION_FROM_SOURCE="3.28.0-rc5"
+ARG REINSTALL_CMAKE_VERSION_FROM_SOURCE="none"
+ENV CC=/usr/bin/clang-17
+ENV CXX=/usr/bin/clang++-17
+ENV CMAKE_GENERATOR=Ninja
 
 # Add SID sources (needed for clang 16)
 COPY ./sources.list /etc/apt
